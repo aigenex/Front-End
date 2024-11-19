@@ -1,36 +1,40 @@
-import { Component } from '@angular/core';
-import {FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {TooltipPosition, MatTooltipModule} from '@angular/material/tooltip';
-import {MatButtonModule} from '@angular/material/button';
-import {CdkScrollable} from '@angular/cdk/scrolling';
-import {MatSelectModule} from '@angular/material/select';
-import {MatFormFieldModule} from '@angular/material/form-field';
+import { COMMA, ENTER } from '@angular/cdk/keycodes';
+import { ThemePalette } from '@angular/material/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+} from '@angular/core';
+import {
+  CdkDrag,
+  CdkDropList,
+} from '@angular/cdk/drag-drop';
 import { MatCardModule } from '@angular/material/card';
-import { MatInputModule } from '@angular/material/input';
-import { MatCheckboxModule } from '@angular/material/checkbox';
+import {
+  MatChipsModule,
+} from '@angular/material/chips';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-tooltips',
+  selector: 'app-chips',
   standalone: true,
+  templateUrl: './HoTro.component.html',
+  styleUrls: ['./HoTro.component.scss'],
   imports: [
     MatFormFieldModule,
-    MatSelectModule,
+    MatChipsModule,
+    MatIconModule,
+    MatCardModule,
+    CdkDropList,
+    CdkDrag,
     FormsModule,
     ReactiveFormsModule,
-    CdkScrollable,
-    MatButtonModule,
-    MatTooltipModule, MatCardModule, MatInputModule, MatCheckboxModule
+    MatButtonModule
   ],
-  templateUrl: './HoTro.component.html',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppHoTroComponent {
-  //  disabled
-  disabled = new FormControl(false);
 
-  // show and hide
-  showDelay = new FormControl(1000);
-  hideDelay2 = new FormControl(2000);
-
-  // change message
-  message = new FormControl('Info about the action');
 }

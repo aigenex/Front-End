@@ -20,27 +20,27 @@ export const navItems: NavItem[] = [
   },
   {
     displayName: 'Câu hỏi',
-    iconName: 'solar:danger-circle-line-duotone',
+    iconName: 'ri:question-line',
     route: '/chuc-nang/cau-hoi',
   },
   {
     displayName: 'Đề thi',
-    iconName: 'solar:bookmark-square-minimalistic-line-duotone',
+    iconName: 'healthicons:i-exam-multiple-choice-outline',
     route: '/chuc-nang/de-thi',
   },
   {
     displayName: 'Dev only',
-    iconName: 'solar:file-text-line-duotone',
+    iconName: 'fluent:window-dev-edit-20-filled',
     route: '/chuc-nang/dev-only',
   },
   {
     displayName: 'Hỗ trợ',
-    iconName: 'solar:text-field-focus-line-duotone',
+    iconName: 'mdi:support',
     route: '/chuc-nang/ho-tro',
   },
   {
     displayName: 'Cài đặt',
-    iconName: 'solar:file-text-line-duotone',
+    iconName: 'uil:setting',
     route: '/chuc-nang/cai-dat',
   },
   {
