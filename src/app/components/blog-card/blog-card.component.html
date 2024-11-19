@@ -10,7 +10,7 @@
       </div>
 
       <mat-card-content class="p-y-24">
-        <mat-card-title class="m-t-20 text-hover-primary cursor-pointer"><a routerLink="['/']" class="hover-text">{{
+        <mat-card-title class="m-t-20 text-hover-primary cursor-pointer"><a (click)="onClickLink(cardimg.routeLink)" class="hover-text">{{
             cardimg.title
             }}</a></mat-card-title>
         <div class="d-flex align-items-center justify-content-center m-t-24">

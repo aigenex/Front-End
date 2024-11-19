@@ -50,12 +50,12 @@ export const navItems: NavItem[] = [
   {
     displayName: 'Đăng nhập',
     iconName: 'solar:login-3-line-duotone',
-    route: '/authentication/login',
+    route: '/xac-thuc/dang-nhap',
   },
   {
     displayName: 'Đăng ký',
     iconName: 'solar:user-plus-rounded-line-duotone',
-    route: '/authentication/register',
+    route: '/xac-thuc/dang-ky',
   },
   {
     navCap: 'Extra',

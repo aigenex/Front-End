@@ -20,7 +20,7 @@ export const routes: Routes = [
       {
         path: 'chuc-nang',
         loadChildren: () =>
-          import('./pages/chucnang/chuc-nang.routes').then(
+          import('./pages/ChucNang/chucnang.routes').then(
             (m) => m.ChucNangRoutes
           ),
       },
@@ -36,10 +36,10 @@ export const routes: Routes = [
     component: BlankComponent,
     children: [
       {
-        path: 'authentication',
+        path: 'xac-thuc',
         loadChildren: () =>
-          import('./pages/authentication/authentication.routes').then(
-            (m) => m.AuthenticationRoutes
+          import('./pages/XacThuc/XacThuc.routes').then(
+            (m) => m.XacThucRoutes
           ),
       },
     ],

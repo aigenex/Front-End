@@ -13,9 +13,9 @@ import { MaterialModule } from '../../../material.module';
   selector: 'app-side-register',
   standalone: true,
   imports: [RouterModule, MaterialModule, FormsModule, ReactiveFormsModule],
-  templateUrl: './side-register.component.html',
+  templateUrl: './DangKy.component.html',
 })
-export class AppSideRegisterComponent {
+export class AppDangKyComponent {
   constructor(private router: Router) {}
 
   form = new FormGroup({

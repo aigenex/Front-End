@@ -20,9 +20,9 @@ import { MatButtonModule } from '@angular/material/button';
     ReactiveFormsModule,
     MatButtonModule,
   ],
-  templateUrl: './side-login.component.html',
+  templateUrl: './DangNhap.component.html',
 })
-export class AppSideLoginComponent {
+export class AppDangNhapComponent {
   constructor(private router: Router) {}
 
   form = new FormGroup({
