@@ -20,14 +20,14 @@ export const routes: Routes = [
       {
         path: 'chuc-nang',
         loadChildren: () =>
-          import('./pages/ChucNang/chucnang.routes').then(
+          import('./pages/ChucNang/ChucNang.routes').then(
             (m) => m.ChucNangRoutes
           ),
       },
       {
-        path: 'extra',
+        path: 'phan-bo-tro',
         loadChildren: () =>
-          import('./pages/extra/extra.routes').then((m) => m.ExtraRoutes),
+          import('./pages/PhanBoTro/PhanBoTro.routes').then((m) => m.PhanBoTroRoutes),
       },
     ],
   },

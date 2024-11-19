@@ -58,17 +58,17 @@ export const navItems: NavItem[] = [
     route: '/xac-thuc/dang-ky',
   },
   {
-    navCap: 'Extra',
+    navCap: 'Phần bổ trợ',
     divider: true
   },
   {
     displayName: 'Icons',
     iconName: 'solar:sticker-smile-circle-2-line-duotone',
-    route: '/extra/icons',
+    route: '/phan-bo-tro/icons',
   },
   {
-    displayName: 'Sample Page',
+    displayName: 'Câu hỏi thường gặp',
     iconName: 'solar:planet-3-line-duotone',
-    route: '/extra/sample-page',
+    route: '/phan-bo-tro/cau-hoi-thuong-gap',
   },
 ];

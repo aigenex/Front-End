@@ -3,9 +3,9 @@ import { Routes } from '@angular/router';
 
 // pages
 import { AppIconsComponent } from './icons/icons.component';
-import { AppSamplePageComponent } from './sample-page/sample-page.component';
+import { AppCauHoiThuongGapComponent } from './CauHoiThuongGap/CauHoiThuongGap.component';
 
-export const ExtraRoutes: Routes = [
+export const PhanBoTroRoutes: Routes = [
   {
     path: '',
     children: [
@@ -14,8 +14,8 @@ export const ExtraRoutes: Routes = [
         component: AppIconsComponent,
       },
       {
-        path: 'sample-page',
-        component: AppSamplePageComponent,
+        path: 'cau-hoi-thuong-gap',
+        component: AppCauHoiThuongGapComponent,
       },
     ],
   },
