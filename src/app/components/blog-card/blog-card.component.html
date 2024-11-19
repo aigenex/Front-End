@@ -1,0 +1,22 @@
+<div class="row justify-content-center">
+  @for(cardimg of cardimgs; track cardimg.imgSrc)
+  {
+  <div class="col-lg-4">
+    <mat-card class="cardWithShadow position-relative overflow-hidden">
+      <div class="position-relative">
+        <img mat-card-image src="{{ cardimg.imgSrc }}" alt="Photo of a Shiba Inu" class="w-100" />
+        <div class="card-overlay h-100 d-flex align-items-end justify-content-end">
+        </div>
+      </div>
+
+      <mat-card-content class="p-y-24">
+        <mat-card-title class="m-t-20 text-hover-primary cursor-pointer"><a routerLink="['/']" class="hover-text">{{
+            cardimg.title
+            }}</a></mat-card-title>
+        <div class="d-flex align-items-center justify-content-center m-t-24">
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  }
+</div>
