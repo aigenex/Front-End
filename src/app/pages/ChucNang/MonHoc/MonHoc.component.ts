@@ -18,7 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-chips',
+  selector: 'app-chuc-nang-mon-hoc',
   standalone: true,
   templateUrl: './MonHoc.component.html',
   styleUrls: ['./MonHoc.component.scss'],

@@ -11,7 +11,7 @@ import { MaterialModule } from '../../../material.module';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-side-login',
+  selector: 'app-dang-nhap',
   standalone: true,
   imports: [
     RouterModule,

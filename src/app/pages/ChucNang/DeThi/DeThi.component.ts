@@ -18,7 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-chips',
+  selector: 'app-chuc-nang-de-thi',
   standalone: true,
   templateUrl: './DeThi.component.html',
   styleUrls: ['./DeThi.component.scss'],

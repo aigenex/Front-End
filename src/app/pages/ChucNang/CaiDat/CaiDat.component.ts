@@ -1,59 +1,40 @@
-import { Component } from '@angular/core';
+import { COMMA, ENTER } from '@angular/cdk/keycodes';
+import { ThemePalette } from '@angular/material/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+} from '@angular/core';
+import {
+  CdkDrag,
+  CdkDropList,
+} from '@angular/cdk/drag-drop';
+import { MatCardModule } from '@angular/material/card';
+import {
+  MatChipsModule,
+} from '@angular/material/chips';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
-import { MatSelectModule } from '@angular/material/select';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatCardModule } from '@angular/material/card';
-import { MatInputModule } from '@angular/material/input';
-import { MatCheckboxModule } from '@angular/material/checkbox';
-import { MatRadioModule } from '@angular/material/radio';
-
-interface Food {
-  value: string;
-  viewValue: string;
-}
 
 @Component({
-  selector: 'app-forms',
+  selector: 'app-chuc-nang-cai-dat',
   standalone: true,
+  templateUrl: './CaiDat.component.html',
+  styleUrls: ['./CaiDat.component.scss'],
   imports: [
     MatFormFieldModule,
-    MatSelectModule,
+    MatChipsModule,
+    MatIconModule,
+    MatCardModule,
+    CdkDropList,
+    CdkDrag,
     FormsModule,
     ReactiveFormsModule,
-    MatRadioModule,
-    MatButtonModule,
-    MatCardModule,
-    MatInputModule,
-    MatCheckboxModule,
+    MatButtonModule
   ],
-  templateUrl: './CaiDat.component.html',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppCaiDatComponent {
-  country: Food[] = [
-    { value: 'steak-0', viewValue: 'USA' },
-    { value: 'pizza-1', viewValue: 'India' },
-    { value: 'tacos-2', viewValue: 'France' },
-    { value: 'tacos-3', viewValue: 'UK' },
-  ];
+export class AppDeThiComponent {
 
-  selectedCountry = this.country[2].value;
-
-  city: Food[] = [
-    { value: 'steak-0', viewValue: 'Mexico' },
-    { value: 'pizza-1', viewValue: 'Mumbai' },
-    { value: 'tacos-2', viewValue: 'Tokyo' },
-    { value: 'tacos-3', viewValue: 'New York' },
-  ];
-
-  selectedCity = this.city[1].value;
-
-  state: Food[] = [
-    { value: 'steak-0', viewValue: 'Cuba' },
-    { value: 'pizza-1', viewValue: 'Djibouti' },
-    { value: 'tacos-2', viewValue: 'Bulgaria' },
-    { value: 'tacos-3', viewValue: 'Cabo Verde' },
-  ];
-
-  selectedState = this.state[3].value;
 }

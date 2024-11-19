@@ -18,7 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-chips',
+  selector: 'app-chuc-nang-ho-tro',
   standalone: true,
   templateUrl: './HoTro.component.html',
   styleUrls: ['./HoTro.component.scss'],

@@ -10,7 +10,7 @@ import { Router, RouterModule } from '@angular/router';
 import { MaterialModule } from '../../../material.module';
 
 @Component({
-  selector: 'app-side-register',
+  selector: 'app-dang-ky',
   standalone: true,
   imports: [RouterModule, MaterialModule, FormsModule, ReactiveFormsModule],
   templateUrl: './DangKy.component.html',

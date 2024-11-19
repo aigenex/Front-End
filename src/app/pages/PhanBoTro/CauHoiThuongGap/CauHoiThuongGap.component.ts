@@ -18,7 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-chips',
+  selector: 'app-phan-bo-tro-cau-hoi-thuong-gap',
   standalone: true,
   templateUrl: './CauHoiThuongGap.component.html',
   styleUrls: ['./CauHoiThuongGap.component.scss'],
