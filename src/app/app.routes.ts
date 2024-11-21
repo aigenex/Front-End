@@ -9,11 +9,11 @@ export const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: '/trang-chu',
+        redirectTo: '/chuc-nang',
         pathMatch: 'full',
       },
       {
-        path: 'trang-chu',
+        path: 'chuc-nang',
         loadChildren: () =>
           import('./pages/pages.routes').then((m) => m.PagesRoutes),
       },

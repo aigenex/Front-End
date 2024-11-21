@@ -16,6 +16,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
+import { TableBasic } from 'src/app/components/table-basic/table-basic.component';
 
 @Component({
   selector: 'app-chuc-nang-de-thi',
@@ -31,7 +32,8 @@ import { MatButtonModule } from '@angular/material/button';
     CdkDrag,
     FormsModule,
     ReactiveFormsModule,
-    MatButtonModule
+    MatButtonModule,
+    TableBasic
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

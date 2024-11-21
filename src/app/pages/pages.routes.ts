@@ -8,7 +8,7 @@ export const PagesRoutes: Routes = [
     data: {
       title: 'Starter',
       urls: [
-        { title: 'Trang chủ', url: '/trang-chu' },
+        { title: 'Trang chủ', url: '/chuc-nang' },
         { title: 'Starter' },
       ],
     },

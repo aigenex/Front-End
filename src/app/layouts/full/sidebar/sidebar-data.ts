@@ -2,15 +2,15 @@ import { NavItem } from './nav-item/nav-item';
 
 export const navItems: NavItem[] = [
   {
-    navCap: 'Trang chủ',
+    navCap: 'Chức năng',
   },
   {
     displayName: 'Danh sách chức năng',
     iconName: 'solar:widget-add-line-duotone',
-    route: '/trang-chu',
+    route: '/chuc-nang',
   },
   {
-    navCap: 'Chức năng',
+    navCap: 'Chi tiết chức năng',
     divider: true
   },
   {
