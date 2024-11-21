@@ -20,14 +20,14 @@ export const routes: Routes = [
       {
         path: 'chuc-nang',
         loadChildren: () =>
-          import('./pages/ChucNang/ChucNang.routes').then(
+          import('./pages/chuc-nang/chuc-nang.routes').then(
             (m) => m.ChucNangRoutes
           ),
       },
       {
         path: 'phan-bo-tro',
         loadChildren: () =>
-          import('./pages/PhanBoTro/PhanBoTro.routes').then((m) => m.PhanBoTroRoutes),
+          import('./pages/phan-bo-tro/phan-bo-tro.routes').then((m) => m.PhanBoTroRoutes),
       },
     ],
   },
@@ -38,7 +38,7 @@ export const routes: Routes = [
       {
         path: 'xac-thuc',
         loadChildren: () =>
-          import('./pages/XacThuc/XacThuc.routes').then(
+          import('./pages/xac-thuc/xac-thuc.routes').then(
             (m) => m.XacThucRoutes
           ),
       },

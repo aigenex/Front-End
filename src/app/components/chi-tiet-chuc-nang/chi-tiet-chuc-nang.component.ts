@@ -19,7 +19,7 @@ interface cardimgs {
   imports: [RouterModule, MatCardModule, MatChipsModule, TablerIconsModule, MatButtonModule],
   templateUrl: './chi-tiet-chuc-nang.component.html',
 })
-export class AppBlogCardsComponent {
+export class AppChiTietChucNangComponent {
   constructor() {}
   route =  inject(Router);
 

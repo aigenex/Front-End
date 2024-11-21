@@ -1,13 +1,13 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { MaterialModule } from '../../material.module';
-import { AppBlogCardsComponent } from 'src/app/components/chi-tiet-0/blog-card.component';
+import { AppChiTietChucNangComponent } from 'src/app/components/chi-tiet-chuc-nang/chi-tiet-chuc-nang.component';
 
 @Component({
   selector: 'app-starter',
   standalone: true,
   imports: [
     MaterialModule,
-    AppBlogCardsComponent,
+    AppChiTietChucNangComponent,
   ],
   templateUrl: './starter.component.html',
   styleUrls: ['./starter.component.scss'],
