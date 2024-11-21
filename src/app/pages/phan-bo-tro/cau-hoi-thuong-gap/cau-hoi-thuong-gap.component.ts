@@ -18,10 +18,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-chips',
+  selector: 'app-phan-bo-tro-cau-hoi-thuong-gap',
   standalone: true,
-  templateUrl: './DevOnly.component.html',
-  styleUrls: ['./DevOnly.component.scss'],
+  templateUrl: './cau-hoi-thuong-gap.component.html',
+  styleUrls: ['./cau-hoi-thuong-gap.component.scss'],
   imports: [
     MatFormFieldModule,
     MatChipsModule,
@@ -35,6 +35,6 @@ import { MatButtonModule } from '@angular/material/button';
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppDevOnlyComponent {
+export class AppCauHoiThuongGapComponent {
 
 }

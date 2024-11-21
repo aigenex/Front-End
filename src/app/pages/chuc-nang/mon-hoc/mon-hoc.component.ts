@@ -18,10 +18,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-phan-bo-tro-cau-hoi-thuong-gap',
+  selector: 'app-chuc-nang-mon-hoc',
   standalone: true,
-  templateUrl: './CauHoiThuongGap.component.html',
-  styleUrls: ['./CauHoiThuongGap.component.scss'],
+  templateUrl: './mon-hoc.component.html',
+  styleUrls: ['./mon-hoc.component.scss'],
   imports: [
     MatFormFieldModule,
     MatChipsModule,
@@ -35,6 +35,6 @@ import { MatButtonModule } from '@angular/material/button';
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppCauHoiThuongGapComponent {
+export class AppMonHocComponent {
 
 }

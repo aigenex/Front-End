@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 
-import { AppDangNhapComponent } from './DangNhap/DangNhap.component';
-import { AppDangKyComponent } from './DangKy/DangKy.component';
+import { AppDangNhapComponent } from './dang-nhap/dang-nhap.component';
+import { AppDangKyComponent } from './dang-ky/dang-ky.component';
 
 export const XacThucRoutes: Routes = [
   {

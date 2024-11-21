@@ -20,7 +20,7 @@ import { MatButtonModule } from '@angular/material/button';
     ReactiveFormsModule,
     MatButtonModule,
   ],
-  templateUrl: './DangNhap.component.html',
+  templateUrl: './dang-nhap.component.html',
 })
 export class AppDangNhapComponent {
   constructor(private router: Router) {}

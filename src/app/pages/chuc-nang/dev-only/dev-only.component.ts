@@ -18,10 +18,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-chuc-nang-ho-tro',
+  selector: 'app-chips',
   standalone: true,
-  templateUrl: './HoTro.component.html',
-  styleUrls: ['./HoTro.component.scss'],
+  templateUrl: './dev-only.component.html',
+  styleUrls: ['./dev-only.component.scss'],
   imports: [
     MatFormFieldModule,
     MatChipsModule,
@@ -35,6 +35,6 @@ import { MatButtonModule } from '@angular/material/button';
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppHoTroComponent {
+export class AppDevOnlyComponent {
 
 }

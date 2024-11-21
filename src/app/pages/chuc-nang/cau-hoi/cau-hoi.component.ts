@@ -18,10 +18,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-chuc-nang-de-thi',
+  selector: 'app-chips',
   standalone: true,
-  templateUrl: './DeThi.component.html',
-  styleUrls: ['./DeThi.component.scss'],
+  templateUrl: './cau-hoi.component.html',
+  styleUrls: ['./cau-hoi.component.scss'],
   imports: [
     MatFormFieldModule,
     MatChipsModule,
@@ -35,6 +35,6 @@ import { MatButtonModule } from '@angular/material/button';
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppDeThiComponent {
+export class AppCauHoiComponent {
 
 }

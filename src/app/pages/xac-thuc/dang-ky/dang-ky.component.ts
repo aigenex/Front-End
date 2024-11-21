@@ -13,7 +13,7 @@ import { MaterialModule } from '../../../material.module';
   selector: 'app-dang-ky',
   standalone: true,
   imports: [RouterModule, MaterialModule, FormsModule, ReactiveFormsModule],
-  templateUrl: './DangKy.component.html',
+  templateUrl: './dang-ky.component.html',
 })
 export class AppDangKyComponent {
   constructor(private router: Router) {}

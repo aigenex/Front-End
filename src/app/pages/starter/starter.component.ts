@@ -1,6 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { MaterialModule } from '../../material.module';
-import { AppBlogCardsComponent } from 'src/app/components/blog-card/blog-card.component';
+import { AppBlogCardsComponent } from 'src/app/components/chi-tiet-0/blog-card.component';
 
 @Component({
   selector: 'app-starter',

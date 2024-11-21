@@ -1,12 +1,12 @@
 import { Routes } from '@angular/router';
 
 // ui
-import { AppMonHocComponent } from './MonHoc/MonHoc.component';
-import { AppCauHoiComponent } from './CauHoi/CauHoi.component';
-import { AppDeThiComponent } from './DeThi/DeThi.component';
-import { AppDevOnlyComponent } from './DevOnly/DevOnly.component';
-import { AppHoTroComponent } from './HoTro/HoTro.component';
-import { AppCaiDatComponent } from './CaiDat/CaiDat.component';
+import { AppMonHocComponent } from './mon-hoc/mon-hoc.component';
+import { AppCauHoiComponent } from './cau-hoi/cau-hoi.component';
+import { AppDeThiComponent } from './de-thi/de-thi.component';
+import { AppDevOnlyComponent } from './dev-only/dev-only.component';
+import { AppHoTroComponent } from './ho-tro/ho-tro.component';
+import { AppCaiDatComponent } from './cai-dat/cai-dat.component';
 
 export const ChucNangRoutes: Routes = [
   {

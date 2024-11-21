@@ -14,10 +14,10 @@ interface cardimgs {
 }
 
 @Component({
-  selector: 'app-blog-card',
+  selector: 'app-chi-tiet-chuc-nang',
   standalone: true,
   imports: [RouterModule, MatCardModule, MatChipsModule, TablerIconsModule, MatButtonModule],
-  templateUrl: './blog-card.component.html',
+  templateUrl: './chi-tiet-chuc-nang.component.html',
 })
 export class AppBlogCardsComponent {
   constructor() {}
