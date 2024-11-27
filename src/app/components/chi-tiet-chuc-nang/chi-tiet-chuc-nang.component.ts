@@ -69,5 +69,6 @@ export class AppChiTietChucNangComponent {
      } else {
       this.route.navigate(link);
      }
+     console.log(link);
   }
 }
